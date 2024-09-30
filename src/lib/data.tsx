@@ -1,29 +1,20 @@
 import { Github, Twitter, Figma } from 'lucide-react';
 
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
-import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
+import LogoTypescript from '/public/images/logos/logo-php.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoExpress from '/public/images/logos/icon-express.svg';
 import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoNest from '/public/images/logos/icon-nest.svg';
-import LogoSocket from '/public/images/logos/icon-socket.svg';
+import LogoSocket from '/public/images/logos/logo-golang.svg';
 import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
 import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
 import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoSass from '/public/images/logos/icon-sass.svg';
-import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
-import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
+import LogoUpwork from '/public/images/logos/logo-newus.jpg';
+import LogoGreenApex from '/public/images/logos/logo-hicolleagues.png';
 import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
+import LogoDotnpixel from '/public/images/logos/logo-binar.png';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
 import ProjectFiskil from '/public/images/project-fiskil.png';
@@ -42,8 +33,8 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
+  GITHUB: 'https://github.com/luluagustin999',
+  GITHUB_REPO: 'https://github.com/luluagustin999',
   TWITTER: 'https://twitter.com/shahsagarm',
   FIGMA: 'https://www.figma.com/@shahsagarm',
   FIGMA_FILE:
@@ -60,10 +51,6 @@ export const NAV_LINKS = [
     href: '#work',
   },
   {
-    label: 'Testimonials',
-    href: '#testimonials',
-  },
-  {
     label: 'Contact',
     href: '#contact',
   },
@@ -72,7 +59,7 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: 'https://github.com/luluagustin999',
   },
   {
     icon: Twitter,
@@ -91,19 +78,9 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
   },
   {
-    label: 'Typescript',
+    label: 'PHP Laravel',
     logo: LogoTypescript,
-    url: 'https://www.typescriptlang.org/',
-  },
-  {
-    label: 'React',
-    logo: LogoReact,
-    url: 'https://react.dev/',
-  },
-  {
-    label: 'Next.js',
-    logo: LogoNextjs,
-    url: 'https://nextjs.org/',
+    url: 'https://www.php.net/',
   },
   {
     label: 'Node.js',
@@ -117,15 +94,10 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://expressjs.com/',
   },
   {
-    label: 'Nest.js',
-    logo: LogoNest,
-    url: 'https://nestjs.com/',
-  },
-  {
-    label: 'Socket.io',
+    label: 'Go Lang',
     logo: LogoSocket,
     darkModeLogo: LogoSocketLight,
-    url: 'https://socket.io/',
+    url: 'https://go.dev/',
   },
   {
     label: 'PostgreSQL',
@@ -138,32 +110,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://www.mongodb.com/',
   },
   {
-    label: 'Sass/Scss',
-    logo: LogoSass,
-    url: 'https://sass-lang.com/',
-  },
-  {
-    label: 'Tailwindcss',
-    logo: LogoTailwindcss,
-    url: 'https://tailwindcss.com/',
-  },
-  {
-    label: 'Figma',
-    logo: LogoFigma,
-    url: 'https://www.figma.com/',
-  },
-  {
-    label: 'Cypress',
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: 'https://www.cypress.io/',
-  },
-  {
-    label: 'Storybook',
-    logo: LogoStorybook,
-    url: 'https://storybook.js.org/',
-  },
-  {
     label: 'Git',
     logo: LogoGit,
     url: 'https://git-scm.com/',
@@ -174,21 +120,21 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoUpwork,
     logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
+    position: 'Fullstack Developer',
+    startDate: new Date(2023, 12),
     currentlyWorkHere: true,
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      'Worked for various types of systems such as service systems, e-commerce systems, etc.',
+      'Worked with a variety of technologies, including Express.js, PostgreSQL, Socket, and others.',
     ],
   },
   {
     logo: LogoGreenApex,
     darkModeLogo: LogoGreenApexLight,
     logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    position: 'Backend Developer',
+    startDate: new Date(2022, 7),
+    endDate: new Date(2022, 11),
     summary: [
       'Acted as team lead in different projects.',
       'Brainstormed new ideas & gathered requirements for internal projects.',
@@ -202,8 +148,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     darkModeLogo: LogoDotnpixelLight,
     logoAlt: 'Dotnpixel logo',
     position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
+    startDate: new Date(2022, 1),
+    endDate: new Date(2022, 6),
     summary: ['Worked as a full stack developer (React / Laravel).'],
   },
 ];

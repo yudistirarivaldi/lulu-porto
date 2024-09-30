@@ -9,22 +9,22 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Sagar Shah | Full Stack Developer From Ahmedabad, India.';
+const title = 'Lulu Agustin | Backend Developer.';
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
-const url = 'https://sagarshah.dev';
+  'A passionate developer with a knack for full stack development (Go Lang & Node.js), from Lampung, Indonesia.';
+const url = 'https://portfolio-lulu.netlify.app/';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
   title,
   description,
   keywords: [
-    'Frontend Developer',
+    'Backend Developer',
     'Full Stack Developer',
-    'React Developer',
-    'Next.js Developer',
+    'Go Developer',
+    'Node.js Developer',
   ],
-  creator: 'Sagar Shah',
+  creator: 'Lulu Agustin',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },

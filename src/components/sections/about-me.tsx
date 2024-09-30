@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import SagarFullPose from '/public/images/sagar-full-pose.jpg';
+import SagarFullPose from '/public/images/lulu-foto.jpeg';
 import Tag from '@/components/data-display/tag';
 import Container from '@/components/layout/container';
 import Typography from '@/components/general/typography';
@@ -41,38 +41,33 @@ const AboutMeSection = () => {
               withUnderline
               href={EXTERNAL_LINKS.FIGMA}
             >
-              self-proclaimed designer
+              backend developer
             </Link>{' '}
-            who specializes in full stack development (React.js & Node.js). I am
-            enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel perfect design, and
-            writing clear, readable, highly performant code matters to me.
+            specializing in building reliable, efficient, and scalable server-side applications.
+            I enjoy designing well-structured databases, creating RESTful APIs, and ensuring data security and 
+            performance optimization in web applications. Since I began my journey as a developer in 2022, 
+            I&apos;ve been eager to take on new challenges, learning the latest technologies and continuously evolving 
+            in the field.
           </Typography>
           <Typography>
-            I began my journey as a web developer in 2015, and since then,
-            I&apos;ve continued to grow and evolve as a developer, taking on new
-            challenges and learning the latest technologies along the way. Now,
-            in my early thirties, 7 years after starting my web development
-            journey, I&apos;m building cutting-edge web applications using
-            modern technologies such as Next.js, TypeScript, Nestjs,
-            Tailwindcss, Supabase and much more.
+            In my early thirties, I have now spent 7 years working on projects ranging from e-commerce to 
+            public service systems. My current stack includes Node.js, SQL, PostgreSQL, and I&apos;ve worked 
+            extensively with microservice architectures. I&apos;m always focused on improving processes and 
+            finding creative solutions to technical challenges.
           </Typography>
           <Typography>
             I am very much a progressive thinker and enjoy working on products
             end to end, from ideation all the way to development.
           </Typography>
           <Typography>
-            When I&apos;m not in full-on developer mode, you can find me
-            hovering around on twitter or on indie hacker, witnessing the
-            journey of early startups or enjoying some free time. You can follow
-            me on{' '}
+            You can follow me on{' '}
             <Link
               noCustomization
               externalLink
               withUnderline
               href={EXTERNAL_LINKS.TWITTER}
             >
-              Twitter
+              LinkedIn
             </Link>{' '}
             where I share tech-related bites and build in public, or you can
             follow me on{' '}
@@ -92,11 +87,11 @@ const AboutMeSection = () => {
               <Typography component="li">
                 B.E. in Computer Engineering
               </Typography>
-              <Typography component="li">Full time freelancer</Typography>
+              <Typography component="li">Certified Junior Developer</Typography>
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">Avid learner</Typography>
-              <Typography component="li">Aspiring indie hacker</Typography>
+              <Typography component="li">Friendly</Typography>
             </ul>
           </div>
           <Typography>
