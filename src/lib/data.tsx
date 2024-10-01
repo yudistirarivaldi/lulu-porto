@@ -13,9 +13,9 @@ import LogoGit from '/public/images/logos/icon-git.svg';
 
 import LogoUpwork from '/public/images/logos/logo-newus.jpg';
 import LogoGreenApex from '/public/images/logos/logo-hicolleagues.png';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
+import LogoGreenApexLight from '/public/images/logos/logo-hicolleagues.png';
 import LogoDotnpixel from '/public/images/logos/logo-binar.png';
-import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
+import LogoDotnpixelLight from '/public/images/logos/logo-binar.png';
 
 import ProjectFiskil from '/public/images/project-sikumba.png';
 import ProjectWingie from '/public/images/project-sanitary.png';
