@@ -6,7 +6,7 @@ import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoExpress from '/public/images/logos/icon-express.svg';
 import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
 import LogoSocket from '/public/images/logos/icon-golang.svg';
-import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
+import LogoSocketLight from '/public/images/logos/icon-golang.svg';
 import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
 import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
