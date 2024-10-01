@@ -34,15 +34,7 @@ const AboutMeSection = () => {
             Curious about me? Here you have it:
           </Typography>
           <Typography>
-            I&apos;m a passionate,{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.FIGMA}
-            >
-              backend developer
-            </Link>{' '}
+            I&apos;m a passionate backend developer
             specializing in building reliable, efficient, and scalable server-side applications.
             I enjoy designing well-structured databases, creating RESTful APIs, and ensuring data security and 
             performance optimization in web applications. Since I began my journey as a developer in 2022, 
@@ -50,7 +42,7 @@ const AboutMeSection = () => {
             in the field.
           </Typography>
           <Typography>
-            In my early thirties, I have now spent 7 years working on projects ranging from e-commerce to 
+            In my early thirties, I have now spent 2 years working on projects ranging from e-commerce to 
             public service systems. My current stack includes Node.js, SQL, PostgreSQL, and I&apos;ve worked 
             extensively with microservice architectures. I&apos;m always focused on improving processes and 
             finding creative solutions to technical challenges.
@@ -65,7 +57,7 @@ const AboutMeSection = () => {
               noCustomization
               externalLink
               withUnderline
-              href={EXTERNAL_LINKS.TWITTER}
+              href={EXTERNAL_LINKS.LINKED}
             >
               LinkedIn
             </Link>{' '}
